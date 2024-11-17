@@ -1,0 +1,334 @@
+body,
+html {
+    height: 3056px;
+    margin: 0;
+}
+
+.fon {
+    background-image: url("../Happy Halloween/WallRoom.png");
+    background-size: cover;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 4456px;
+    z-index: -1;
+}
+
+.happy {
+    font-family: 'Irish Grover';
+    margin-top: 0px;
+    font-size: 120px;
+    text-align: center;
+    color: #E0E0E0;
+    text-shadow:
+        -1px -1px 0 black,
+        10px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.shop {
+    font-family: 'Arial';
+    margin-top: -80px;
+    font-size: 80px;
+    text-align: center;
+    color: #FD962F;
+    text-shadow:
+        -1px -1px 0 black,
+        10px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    max-width: 100%;
+}
+
+.wrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: static;
+    height: 80px;
+    width: 400px;
+    align-items: center;
+}
+
+.text-menu-catalog {
+    color: #E0E0E0;
+    text-align: center;
+    font-size: 35px;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.menu {
+    text-align: center;
+    justify-content: center;
+    width: 1600px;
+    display: flex;
+    background-color: #FD962F;
+    border: 1px solid #FD962F;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.welcome1 {
+    font-family: 'Arial';
+    margin-top: 80px;
+    font-size: 50px;
+    text-align: center;
+    color: #FD962F;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.welcome2 {
+    font-family: 'Arial';
+    margin-top: -30px;
+    font-size: 50px;
+    text-align: center;
+    color: #FD962F;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.more {
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    display: flex;
+    background-color: #FD962F;
+    border: 1px solid #FD962F;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.warp-more {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: static;
+    height: 150px;
+    width: 500px;
+    align-items: center;
+}
+
+.text-see-more {
+    color: #F9FD94;
+    text-align: center;
+    font-size: 65px;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.text-catalog {
+    font-family: 'Arial';
+    margin-top: 500px;
+    font-size: 50px;
+    text-align: center;
+    color: #FD962F;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.image1 {
+    width: 100%;
+    max-width: 900px;
+    height: 550px;
+    display: block;
+    text-align: center;
+    justify-content: baseline;
+    margin: 0 auto;
+    position: relative;
+    left: calc(0% - 325px);
+}
+
+.catalog {
+    text-align: center;
+    justify-content: center;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: -535px;
+    margin-right: 300px;
+    box-sizing: border-box;
+    max-width: 500px;
+    width: 100%;
+    height: 550px;
+    display: grid;
+}
+
+.catalog-wrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: static;
+    height: 150px;
+    width: 500px;
+    align-items: center;
+    background-color: #FD962F;
+    border: 1px solid #FD962F;
+    border-radius: 10px;
+}
+
+.text-fon-catalog {
+    color: #E0E0E0;
+    text-align: center;
+    font-size: 50px;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.text1 {
+    font-family: 'Arial';
+    margin-bottom: -50px;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.download {
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    display: flex;
+    background-color: #C70808;
+    border: 1px solid #C70808;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 530px;
+    width: 100%;
+}
+
+.warp-download {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: static;
+    height: 150px;
+    width: 530px;
+    align-items: center;
+}
+
+.text-download {
+    color: #FF9D00;
+    text-align: center;
+    font-size: 65px;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.telephone {
+    font-family: 'Arial';
+    font-size: 50px;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+
+
+.telegram {
+    color: #E0E0E0;
+    text-align: left;
+    font-size: 50px;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.backline {
+    color: #E0E0E0;
+    text-align: right;
+    font-size: 50px;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+
+.vk {
+    color: #E0E0E0;
+    text-align: left;
+    font-size: 50px;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.internet {
+    margin-left: 150px;
+    margin-top: 400px;
+    justify-content: left;
+    display: grid;
+    text-align: left;
+}
+
+.column a {
+    margin: 5px 0;
+}
+
+.column p {
+    margin: 5px 0;
+}
+
+.backline-div {
+    margin-right: 150px;
+    margin-top: -200px;
+    justify-content: right;
+    display: grid;
+    text-align: left;
+}
