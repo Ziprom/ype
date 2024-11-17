@@ -60,6 +60,7 @@ html {
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
+    cursor: pointer;
 }
 
 td {
@@ -148,6 +149,7 @@ tr {
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
+    cursor: pointer;
 }
 
 .text-catalog {
@@ -178,8 +180,8 @@ tr {
 .catalog {
     text-align: center;
     justify-content: center;
-    width: 1600px;
-    margin: 0 auto;
+    width: 1600px; 
+    margin: 0 auto; 
     margin-top: -535px;
     margin-right: 300px;
     box-sizing: border-box;
@@ -211,6 +213,7 @@ tr {
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
+    cursor: pointer;
 }
 
 .text1 {
@@ -259,6 +262,7 @@ tr {
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
+    cursor: pointer;
 }
 
 .telephone {
@@ -271,6 +275,7 @@ tr {
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
+    cursor: pointer;
 }
 
 
@@ -284,6 +289,7 @@ tr {
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
+    cursor: pointer;
 }
 
 .backline {
@@ -295,6 +301,7 @@ tr {
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
+    cursor: pointer;
 }
 
 
@@ -307,6 +314,7 @@ tr {
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
+    cursor: pointer;
 }
 
 .internet {
