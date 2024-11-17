@@ -5,9 +5,9 @@ html {
 }
 
 .fon {
-    background-image: url("../Happy Halloween/WallRoom.png");
-    background-size: cover;
     background-color: black;
+    background-image: url("Happy Halloween/WallRoom.png");
+    background-size: cover;
     position: absolute;
     width: 100%;
     height: 4456px;
