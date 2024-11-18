@@ -10,44 +10,47 @@
 <body>
     <div class="fon">123</div>
     <p class="happy">Happy Halloween</p>
-    <p class="shop">Магазин Хэллоуинских товаров</p>
+    <h1 class="shop">Магазин Хэллоуинских товаров</h1>
+    <button class="toggleBlood">
+        <h3>Настройки крови</h3>
+        <img src="Happy Halloween/toggle-icon.png" class="toggleBlood-picture" alt="Toggle Blood" />
+    </button>
     <div class="menu">
         <div class="wrap">
-            <a class="text-menu-catalog">Каталог</a>
+            <h2 class="text-menu-catalog">Каталог</h2>
         </div>
         <div class="wrap">
-            <a class="text-menu-catalog">Обратная связь</a>
+            <h2 class="text-menu-catalog-backline">Обратная связь</h2>
         </div>
         <div class="wrap">
-            <a class="text-menu-catalog">Лицензии</a>
+            <h2 class="text-menu-catalog-link">Лицензии</h2>
         </div>
         <div class="wrap">
-            <a class="text-menu-catalog">О сайте</a>
+            <h2 class="text-menu-catalog-sait">О сайте</h2>
         </div>
     </div>
     <p class="welcome1">Добро пожаловать,</p>
-    <p class="welcome2">выбор анимированных фонов для рабочего стола в честь Хэллоуина!</p>
+    <p class="welcome2">выбор фонов для рабочего стола в честь Хэллоуина!</p>
     <p class="welcome2">Эти фоны бесплатны для установки.</p>\
     <div class="more">
         <div class="warp-more">
-            <a class="text-see-more">Увидеть больше</a>
+            <h3 class="text-see-more">Увидеть больше</h3>
         </div>
     </div>
     <p class="text-catalog">Выбирете любой фон из каталога</p>
     <img src="Happy Halloween/pumkin.png" class="image1" width="900" height="550">
     <div class="catalog">
         <div class="catalog-wrap">
-            <a class="text-fon-catalog">тыквы</a>
+            <a class="text-fon-catalog" onclick="changeContent1()">тыквы</a>
         </div>
         <div class="catalog-wrap">
-            <a class="text-fon-catalog">украшения</a>
+            <a class="text-fon-catalog" onclick="changeContent2()">украшения</a>
         </div>
         <div class="catalog-wrap">
-            <a class="text-fon-catalog">монстры</a>
+            <a class="text-fon-catalog" onclick="changeContent3()">монстры</a>
         </div>
     </div>
-    <p class="text1">Этот фон представляет собой анимированную тыкву,</p>
-    <p class="text1">спокойно качающийся из стороны в сторону</p>
+    <p class="text1">Этот фон представляет собой большую тыкву, <br>тыква пугающе смотрит на вас</p>
     <div class="download">
         <div class="warp-download">
             <h2 class="text-download">Скачать</h2>
@@ -64,6 +67,7 @@
     <div class="backline-div">
         <a class="backline">Обратная связь</a>
     </div>
+    <audio class="sound-pumkin" src="Sounds/SoundPumkin.mp3"></audio>
 
     <script src="script.js"></script>
 </body>
