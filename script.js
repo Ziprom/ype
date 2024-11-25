@@ -13,10 +13,33 @@ document.querySelector(".text-menu-catalog-backline").addEventListener("click", 
     target.scrollIntoView({ behavior: "smooth" });
 });
 
+
+
+
+
 document.querySelector('.text-download').addEventListener('click', function() {
     var audio = document.querySelector('.sound-pumkin');
     audio.play();
 });
+
+
+
+
+
+function downloadCurrentImage() {
+    const imgSrc = document.getElementById('Image').src;
+    
+    const link = document.createElement('a');
+    link.href = imgSrc;
+    link.download = 'downloaded_image.jpg';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+
+
+
 
 function changeContent1() {
     document.querySelector(".text1").innerText = "Этот фон представляет собой большую тыкву, \nтыква пугающе смотрит на вас";
@@ -28,6 +51,10 @@ function changeContent2() {
     document.querySelector(".image1").src = "Happy Halloween/Decoration.png";
 }
 
+function changeContent3() {
+    document.querySelector(".text1").innerText = "Этот фон представляет собой множество монстров, \n(видимо они голодные)";
+    document.querySelector(".image1").src = "Happy Halloween/monsters.png";
+}
 
 
 
@@ -84,3 +111,53 @@ window.onload = function() {
        bloodActive = True;
    }
 };
+
+
+
+
+
+
+document.getElementById('openModalSait').onclick = function() {
+    document.getElementById('modal-sait').style.display = 'block';
+}
+
+document.getElementById('closeModalSaitBtn').onclick = function() {
+    document.getElementById('modal-sait').style.display = 'none';
+}
+
+window.onclick = function(event) {
+    const modal = document.getElementById('modal-sait');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+}
+
+document.getElementById('openModalLink').onclick = function() {
+    document.getElementById('modal-link').style.display = 'block';
+}
+
+document.getElementById('closeModalLinkBtn').onclick = function() {
+    document.getElementById('modal-link').style.display = 'none';
+}
+
+window.onclick = function(event) {
+    const modal = document.getElementById('modal-link');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+}
+
+document.getElementById('openModalBackline').onclick = function() {
+    document.getElementById('modal-backline').style.display = 'block';
+}
+
+document.getElementById('closeModalBacklineBtn').onclick = function() {
+    document.getElementById('modal-backline').style.display = 'none';
+}
+
+window.onclick = function(event) {
+    const modal = document.getElementById('modal-backline');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+}

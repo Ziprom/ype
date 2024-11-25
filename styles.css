@@ -120,6 +120,118 @@ html {
     cursor: pointer;
 }
 
+.modal-sait {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-content-sait {
+    background-color: black;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.text-into-sait-header {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.text-into-sait {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.text-into-sait-data {
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
+
+.close-button-sait {
+    color: #aaa;
+    float: right;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.close-button-sait:hover,
+.close-button-sait:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-link {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-content-link {
+    background-color: black;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.text-into-link-header {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.text-into-link {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.text-into-link-data {
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
+
+.close-button-link {
+    color: #aaa;
+    float: right;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.close-button-link:hover,
+.close-button-link:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-into-link-data {
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
+
 td {
     display: table-cell;
     vertical-align: inherit;
@@ -232,6 +344,12 @@ tr {
     margin: 0 auto;
     position: relative;
     left: calc(0% - 325px);
+}
+
+.download-text {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .catalog {
@@ -361,6 +479,64 @@ tr {
     cursor: pointer;
 }
 
+.modal-backline {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modal-content-backline {
+    background-color: #F1BF61;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #F1BF61;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.text-into-backline-header {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.text-into-backline {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.text-into-backline-data {
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
+
+.close-button-backline {
+    color: #aaa;
+    float: right;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.close-button-backline:hover,
+.close-button-backline:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-into-backline-data {
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
 
 .vk {
     color: #E0E0E0;

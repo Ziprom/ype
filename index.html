@@ -23,22 +23,40 @@
             <h2 class="text-menu-catalog-backline">Обратная связь</h2>
         </div>
         <div class="wrap">
-            <h2 class="text-menu-catalog-link">Лицензии</h2>
+            <h2 id="openModalLink" class="text-menu-catalog-link">Лицензии</h2>
         </div>
         <div class="wrap">
-            <h2 class="text-menu-catalog-sait">О сайте</h2>
+            <h2 id="openModalSait" class="text-menu-catalog-sait">О сайте</h2>
         </div>
+    </div>
+    <div id="modal-sait" class="modal-sait">
+        <div class="modal-content-sait">
+            <span class="close-button-sait" id="closeModalSaitBtn">&times;</span>
+            <h2 class="text-into-sait-header">О сайте</h2>
+            <h3 class="text-into-sait">На данном сайте доступна беспланая<br> установка фонов для рабочего стола</h3>
+            <h3 class="text-into-sait">Разработчик - Тулаев Александр</h3>
+            <h3 class="text-into-sait">Сайт был разработан специально для<br> Нефтеюганского политехнического колледжа</h3>
+            <h3 class="text-into-sait-data">Сделано в 2024 году</h3>
+        </div>
+    </div>
+    <div id="modal-link" class="modal-link">
+        <div class="modal-content-link">
+            <span class="close-button-link" id="closeModalLinkBtn">&times;</span>
+            <h2 class="text-into-link-header">Лицензии</h2>
+            <h3 class="text-into-link">Все права защищены<br> Нефтеюганским политехническим колледжом</h3>
+            <h3 class="text-into-link-data">2024</h3>
+        </div> 
     </div>
     <p class="welcome1">Добро пожаловать,</p>
     <p class="welcome2">выбор фонов для рабочего стола в честь Хэллоуина!</p>
-    <p class="welcome2">Эти фоны бесплатны для установки.</p>\
+    <p class="welcome2">Эти фоны бесплатны для установки.</p>
     <div class="more">
         <div class="warp-more">
             <h3 class="text-see-more">Увидеть больше</h3>
         </div>
     </div>
     <p class="text-catalog">Выбирете любой фон из каталога</p>
-    <img src="Happy Halloween/pumkin.png" class="image1" width="900" height="550">
+    <img id="Image" src="Happy Halloween/pumkin.png" class="image1" width="900" height="550">
     <div class="catalog">
         <div class="catalog-wrap">
             <a class="text-fon-catalog" onclick="changeContent1()">тыквы</a>
@@ -53,7 +71,7 @@
     <p class="text1">Этот фон представляет собой большую тыкву, <br>тыква пугающе смотрит на вас</p>
     <div class="download">
         <div class="warp-download">
-            <h2 class="text-download">Скачать</h2>
+            <h2 class="text-download" onclick="downloadCurrentImage()">Скачать</h2>
         </div>
     </div>
     <div class="internet">
@@ -65,7 +83,15 @@
         <a class="telegram">telegram</a>
     </div>
     <div class="backline-div">
-        <a class="backline">Обратная связь</a>
+        <a id="openModalBackline" class="backline">Обратная связь</a>
+    </div>
+    <div id="modal-backline" class="modal-backline">
+        <div class="modal-content-backline">
+            <span class="close-button-backline" id="closeModalBacklineBtn">&times;</span>
+            <h2 class="text-into-backline-header">Лицензии</h2>
+            <h3 class="text-into-backline">Все права защищены<br> Нефтеюганским политехническим колледжом</h3>
+            <h3 class="text-into-backline-data">2024</h3>
+        </div> 
     </div>
     <audio class="sound-pumkin" src="Sounds/SoundPumkin.mp3"></audio>
 
