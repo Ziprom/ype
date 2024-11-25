@@ -161,3 +161,24 @@ window.onclick = function(event) {
         modal.style.display = 'none';
     }
 }
+
+document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    let isValid = true;
+    const inputs = document.querySelectorAll('.input-field');
+
+    inputs.forEach(input => {
+        if (input.value.trim() === '') {
+            input.classList.add('error', 'shake');
+            isValid = false;
+        } else {
+            input.classList.remove('error', 'shake');
+        }
+    });
+
+    if (isValid) {
+        alert('Форма успешно отправлена!');
+        document.getElementById('modal-backline').style.display = 'none';
+    }
+});

@@ -88,9 +88,19 @@
     <div id="modal-backline" class="modal-backline">
         <div class="modal-content-backline">
             <span class="close-button-backline" id="closeModalBacklineBtn">&times;</span>
-            <h2 class="text-into-backline-header">Обратная связь</h2>
-            <h3 class="text-into-backline">Ваше мнение не учитывается</h3>
-            <h3 class="text-into-backline-data"></h3>
+            <form id="myForm">
+                <label for="input1">Фамилия:</label>
+                <input type="text" id="input1" class="input-field"><br>
+                <label for="input2">Имя:</label>
+                <input type="text" id="input2" class="input-field"><br>
+                <label for="input3">E-mail:</label>
+                <input type="text" id="input3" class="input-field"><br>
+                <label for="input4">Телефон:</label>
+                <input type="text" id="input4" class="input-field"><br>
+                <label for="input5">Комментарий:</label>
+                <textarea id="input5" class="input-field-message"></textarea>
+                <button type="submit">Отправить</button>
+            </form>
         </div> 
     </div>
     <audio class="sound-pumkin" src="Sounds/SoundPumkin.mp3"></audio>
